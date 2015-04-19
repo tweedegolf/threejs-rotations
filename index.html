@@ -60,17 +60,16 @@
   </head>
   <body>
     <div id="controls_top">
+<!--
       <button class="unselectable" id="fullscreen">fullscreen</button>
       <div id="output"></div><br>
       <div id="output2"></div>
-    </div>
+ -->    </div>
     <div id="controls_bottom">
       <button class="unselectable" id="forward">forward</button>
       <button class="unselectable" id="backward">backward</button>
       <button class="unselectable" id="left">left</button>
       <button class="unselectable" id="right">right</button>
-      <input type="range" class="unselectable" id="tilt" min="-180" max="180" value="0">
-      <input type="range" class="unselectable" id="rotation" min="-180" max="180" value="0">
     </div>
     <div id="canvas3d"></div>
 
@@ -84,6 +83,7 @@
     <!-- for mobile devices
     <script src="lib/threejs/DeviceOrientationControls.js"></script>
     -->
+    <script src="lib/threejs/OrbitControls.js"></script>
 
     <script src="build/build.js"></script>
   </body>
