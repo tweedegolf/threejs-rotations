@@ -40,4 +40,4 @@ Starts a local webserver at port 8080.
 
 ## Live example
 
-[http://data.tweedegolf.nl/threejs-rotations](http://data.tweedegolf.nl/threejs-rotations)
+[https://tweedegolf.github.io/threejs-rotations/](https://tweedegolf.github.io/threejs-rotations/)
